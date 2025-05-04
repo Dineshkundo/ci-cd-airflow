@@ -26,14 +26,13 @@ This project automates the provisioning of an Apache Airflow instance on a GCP C
 ---
 
 ## 📁 File Structure
-'''
+```
 ci-cd-airflow/
 │
 ├── script.sh # Main provisioning script
 ├── dags/ # DAGs pulled from GitHub (auto-synced)
 └── README.md # This documentation
-'''
-
+```
 
 ---
 
@@ -61,9 +60,9 @@ The following variables are configurable in `script.sh`:
    ssh <your-vm>
 ---------------------------------------
 
-# Make the script executable
-# chmod +x script.sh
+## Make the script executable
+ ``` chmod +x script.sh ```
 
-# Run the script as root
-# sudo ./script.sh
+## Run the script as root
+``` sudo ./script.sh ```
 
